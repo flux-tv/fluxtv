@@ -1,3 +1,7 @@
+[B]0.9.2[/B]
+
+- Added shortcuts to Genesis Movies
+
 [B]0.9.1[/B]
 
 - Removed logo

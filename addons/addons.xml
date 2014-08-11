@@ -136,7 +136,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.fluxtv" version="0.9.1" name="fluxtv" provider-name="fluxtv">
+<addon id="skin.fluxtv" version="0.9.2" name="fluxtv" provider-name="fluxtv">
   <requires>
     <import addon="xbmc.gui" version="5.0.0" />
   </requires>
