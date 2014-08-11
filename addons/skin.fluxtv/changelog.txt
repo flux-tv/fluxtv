@@ -1,0 +1,8 @@
+[B]0.9.1[/B]
+
+- Removed logo
+- Added shortcuts to Genesis
+
+[B]0.0.1[/B]
+
+- Initial Commit to the SVN

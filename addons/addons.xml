@@ -135,4 +135,31 @@
 		<description>Eminence is a skin that seeks simplicity, functionality, and elegance with a modern look</description>
 	</extension>
 </addon>
+
+<addon id="skin.fluxtv" version="0.9.1" name="fluxtv" provider-name="fluxtv">
+  <requires>
+    <import addon="xbmc.gui" version="5.0.0" />
+  </requires>
+  <extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FluxTV skin</summary>
+    <summary lang="en_AU">FluxTV skin</summary>
+    <summary lang="en_NZ">FluxTV skin</summary>
+    <summary lang="en_US">FluxTV skin</summary>
+    <summary lang="nl">FluxTV skin</summary>
+    <description lang="en">FluxTV is a skin for XBMC 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time XBMC users to understand and use.</description>
+    <description lang="en_AU">FluxTV is a skin for XBMC 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time XBMC users to understand and use.</description>
+    <description lang="en_NZ">FluxTV is a skin for XBMC 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time XBMC users to understand and use.</description>
+    <description lang="en_US">FluxTV is a skin for XBMC 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time XBMC users to understand and use.</description>
+    <description lang="nl">FluxTV is een skin voor XBMC 9.11 en hoger. Het combineert de concepten van andere populaire skins, waarbij het tracht hun goede ideeën te integreren in een skin die gemakkelijk in gebruik is.</description>
+    <disclaimer lang="en">FluxTV is the default skin for XBMC, removing it may cause issues</disclaimer>
+    <disclaimer lang="en_AU">FluxTV is a skin for XBMC, removing it may cause issues</disclaimer>
+    <disclaimer lang="en_NZ">FluxTV is a skin for XBMC, removing it may cause issues</disclaimer>
+    <disclaimer lang="en_US">FluxTV is a skin for XBMC, removing it may cause issues</disclaimer>
+    <disclaimer lang="nl">FluxTV is een XBMC skin, het verwijderen van Confluence kan leiden tot problemen.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
