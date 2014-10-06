@@ -115,7 +115,7 @@ XBMC HUB: j.mp/xbmctorrent]]></description>
     </extension>
 </addon>
 
-<addon id="skin.fluxtv" version="0.9.3" name="fluxtv" provider-name="fluxtv">
+<addon id="skin.fluxtv" version="0.9.4" name="fluxtv" provider-name="fluxtv">
   <requires>
     <import addon="xbmc.gui" version="5.0.0" />
   </requires>

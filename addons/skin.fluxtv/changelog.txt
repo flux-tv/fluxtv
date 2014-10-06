@@ -1,3 +1,8 @@
+[B]0.9.4[/B]
+
+- Changed shortcuts under tv-series
+- Added library update button
+
 [B]0.9.2[/B]
 
 - Added shortcuts to Genesis Movies

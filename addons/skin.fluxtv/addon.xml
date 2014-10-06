@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<addon id="skin.fluxtv" version="0.9.3" name="fluxtv" provider-name="fluxtv">
+<addon id="skin.fluxtv" version="0.9.4" name="fluxtv" provider-name="fluxtv">
   <requires>
     <import addon="xbmc.gui" version="5.0.0" />
   </requires>
