@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pulsar.PirateBay" name="Pulsar Pirate Bay Provider" version="1.1.1" provider-name="GabbeV">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <import addon="plugin.video.pulsar" version="0.2"/>
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Pulsar Pirate Bay Provider</summary>
+        <language></language>
+        <platform>all</platform>
+    </extension>
+</addon>
