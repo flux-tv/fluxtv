@@ -137,6 +137,51 @@ XBMC HUB: j.mp/xbmctorrent]]></description>
     </extension>
 </addon>
 
+<addon id="script.pulsar.bitdgg" name="Pulsar bitdgg Provider" version="0.5.2" provider-name="gomezvd">
+	<requires>
+		<import addon="xbmc.python" version="2.12.0"/>
+		<import addon="plugin.video.pulsar" version="0.3"/>
+	</requires>
+	<extension point="xbmc.python.script" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Pulsar bitdgg Provider</summary>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.pulsar.eztv-platbr" name="platbr's Pulsar EZTV Provider" version="0.1.0" provider-name="platbr">
+	<requires>
+		<import addon="xbmc.python" version="2.12.0"/>
+		<import addon="plugin.video.pulsar" version="0.2"/>
+	</requires>
+	<extension point="xbmc.python.script" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">platbr's Pulsar EZTV Provider</summary>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.pulsar.yify-platbr" name="platbr's Pulsar Yify Provider" version="0.0.4" provider-name="platbr">
+	<requires>
+		<import addon="xbmc.python" version="2.12.0"/>
+        <import addon="plugin.video.pulsar" version="0.2"/>
+	</requires>
+	<extension point="xbmc.python.script" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">platbr's Pulsar Yify Provider</summary>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="skin.fluxtv" version="0.9.4" name="fluxtv" provider-name="fluxtv">
   <requires>
     <import addon="xbmc.gui" version="5.0.0" />
