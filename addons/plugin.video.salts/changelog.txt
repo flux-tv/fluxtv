@@ -1,3 +1,111 @@
+[B]Version 1.0.0~beta2[/B]
+- handle invalid trakt usernames better
+- Fix related urls when year is None
+- Use the trakt addon for ratings when possible
+- Fix mvl
+- Fix losmovies
+
+[B]Version 1.0.0~beta1[/B]
+- Fix movie25
+- move scraper sort order setting to DB
+- Improve scraper sort order directory
+- Fix solarmovie scraper
+- Fix afdah scraper
+- Fix oneclickwatch scraper
+
+[B]Version 0.0.68[/B]
+- Fix invalid characters in folders
+- fix uflix scraper
+- fix twomovies scraper
+- fix afdah scraper
+- fix movie25 scraper
+- remove putlocker scraper
+- fix myvideolinks scraper
+- fix ororo.tv scraper
+- add watchfree.to scraper
+- add rlsssource scraper
+- fix onlinemovies scraper
+- add project-free-tv scraper
+
+[B]Version 0.0.67[/B]
+- Fix wmo scraper
+- Add default quality to local scraper
+- fix istream scraper
+- Add parallel My Next Episodes code
+
+[B]Version 0.0.66[/B]
+- Add hdtvshows.net scraper
+- Fix wmo and wso scrapers
+- fix 2movies scraper
+- fix viooz.ac scraper
+- fix uflix scraper
+- improve film-streaming.in scrpaer
+- Add hidden link support to afdah scraper
+- Minor Fixes
+
+[B]Version 0.0.65[/B]
+- Fix niter.tv scraper
+- fix movie search for blogs
+- fix service error
+- fix wmo scraper
+- fix afdah scraper
+- fix mvl scraper
+
+[B]Version 0.0.64[/B]
+- Fix hdmz scraper
+
+[B]Version 0.0.63[/B]
+- Fix script error in iwatchonline
+
+[B]Version 0.0.62[/B]
+- Fix script error on android & iphone
+
+[B]Version 0.0.61[/B]
+- Improve air-date algorithm
+- Add air-date support to oneclickwatch and tv-release.net
+- Add hdmz scraper
+- Add putlocker.is scraper
+- Add ch131 scraper
+
+[B]Version 0.0.60[/B]
+- Fix myvideolinks.eu scraper
+- Fix movie25 scraper
+- Fix twomovies scraper
+- Use new trakt api host
+- Only check next_run every minute rather than every second
+- Match episodes on airdate is SXXEXX match fails (where available)
+- Improve clickplay.to matching
+- Minor bug fixes
+
+[B]Version 0.0.59[/B]
+- Fix wso and wmo regexes
+
+[B]Version 0.0.58[/B]
+- Extend host quality logic to other scrapers
+- Code Cleanup (PEP8)
+- remove alluc.to scraper
+- Add tv-release.net scraper
+
+[B]Version 0.0.57[/B]
+- Fix movietv.to scraper
+- Fix myvideolinks.eu scraper
+- Fix uflix.org scraper
+- Fix wmo.ch scraper
+- Fix iwatch scraper
+- Improve clickplay.to scraper
+- Improve yify.tv scraper
+- Use quality derivation algorithm for all scrapers where quality is undefined
+- Fix movieshd.co scraper
+- Stop printing labels that aren't filled in
+
+[B]Version 0.0.56[/B]
+- Fix for when no account is configured
+- Add some theme icons
+- Fix playback on trakt failure
+- Require login for niter.tv
+- Temporarily remove broken menu items
+- Add pop-up when url resolution fails.
+
 [B]Version 0.0.55[/B]
 - Add wmo.ch scraper
 - Add wso.ch scraper
