@@ -24,10 +24,9 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.genesis" name="Genesis" version="3.0.0" provider-name="lambda">
+<addon id="plugin.video.genesis" name="Genesis" version="4.2.0" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver" version="1.0.0"/>
 		<import addon="script.module.metahandler" optional="true"/>
 		<import addon="script.module.simplejson" optional="true"/>
 		<import addon="script.module.parsedom" optional="true"/>
@@ -43,8 +42,8 @@
 		<description lang="en">Visit TVADDONS.ag for support</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
-		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
-		<website>https://github.com/lambda81/</website>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -73,7 +72,7 @@
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="1.0.0" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.004" name="Stream All The Sources" provider-name="tknorris">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.urlresolver" version="2.2.0" />
