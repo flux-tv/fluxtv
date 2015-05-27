@@ -1,4 +1,170 @@
 ------------------------
+Genesis v4.5.3 (26-May-15)
+------------------------
+
+- Fixed issue with Trakt scrobbling.
+- Tweaked loading of resolvers.
+- Fixed Vodlocker resolver.
+- Tweaked Nowvideo resolver.
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.5.2 (23-May-15)
+------------------------
+
+- Updated resolvers.
+- Tweaked trailers.
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.5.1 (21-May-15)
+------------------------
+
+- Updated resolvers.
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.5.0 (17-May-15)
+------------------------
+
+- Tweaked Icefilms source.
+- Tweaked Primewire source.
+- Tweaked Movie25 source.
+- Tweaked Watchseries source.
+- Tweaked Iwatchonline source.
+- Updated available resolvers.
+- NOTE: Clicknupload is now a host with captchas.
+- NOTE: You will have to enable them in settings.
+- Fixed issue with scene "Latest HD Movies".
+- Fixed issue with scene "Latest Movies".
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.4.7 (15-May-15)
+------------------------
+
+- Added Vidics source.
+- Fixed Icefilms source.
+- Tweaked G2G source.
+- Removed MerDB source.
+- Fixed issue with scene "Latest HD Movies".
+- Fixed issue with scene "Latest Movies".
+- Tweaked unix systems (Python 2.7.9).
+- Updated Portuguese translation.
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.4.6 (13-May-15)
+------------------------
+
+- Tweaked Alluc source.
+- Fixed issue on unix systems (Python 2.7.9).
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.4.5 (9-May-15)
+------------------------
+
+- Added Afdah source.
+- Removed Zumvo source.
+- Tweaked Alluc source.
+- Tweaked Movietube source.
+- Tweaked Moviezone source.
+- Tweaked G2G source.
+- Tweaked MoviesHD source.
+- Tweaked Onlinemovies source.
+- Tweaked VKBox source.
+- Tweaked Clickplay source.
+- Tweaked Animeultima source.
+- Tweaked loading of sources.
+- Tweaked Google resolvers.
+- Tweaked Movpod resolver.
+- Tweaked Videomega resolver.
+- Tweaked VK resolver.
+- Fixed Movdivx resolver.
+- Fixed Streamin resolver.
+- Fixed Uptobox resolver.
+- Added Spanish translation.
+- Fixed trailers.
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.4.1 (24-Apr-15)
+------------------------
+
+- Fixed trailers.
+- Fixed Zumvo source.
+- Re-work of resolvers.
+- Tweaked addon settings.
+- Tweaked loading of resolvers.
+- Tweaked loading of sources.
+- Tweaked downloading support.
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.4.0 (16-Apr-15)
+------------------------
+
+- Tweaked Alluc source.
+- Fixed Google resolvers.
+- Fixed 180upload resolver.
+- Fixed Mightyupload resolver.
+- Fixed Mrfile resolver.
+- Fixed Vidplay resolver.
+- Fixed V-vids resolver.
+- Fixed Thevideo resolver.
+- Fixed Uploadrocket resolver.
+- Added Clicknupload resolver.
+- Added Tusfiles resolver.
+- Added Xfileload resolver.
+- Removed Cloudyvideos resolver.
+- Removed Filecloud resolver.
+- Removed Promptfile resolver.
+- Tweaked loading of resolvers.
+- Tweaked loading of sources.
+- Tweaked Auto-play.
+- Re-work of source filtering.
+- Added option for max quality.
+- Added options for file hosting services.
+- Added new options for Auto-play.
+- NOTE: Host priorities will be reset.
+- Tweaked downloading support.
+- Updated translations.
+- Code cosmetics.
+
+
+------------------------
+Genesis v4.3.0 (4-Apr-15)
+------------------------
+
+- Re-work of TV Calendar.
+- TV Calendar: Added sorting by week.
+- TV Calendar: Removed sorting by date.
+- TV Calendar: Added Season Premieres.
+- TV Calendar: Added New TV Shows.
+- Re-work of scene episodes.
+- Re-work of Trakt episodes.
+- Added Alluc source.
+- Fixed issue with YIFY source.
+- Fixed issue with Moviezone source.
+- Fixed issue with Muchmovies source.
+- Fixed issue with Moviestorm source.
+- Fixed issue with Google resolvers.
+- Tweaked filtering of sources.
+- Updated translations.
+- Updated all themes.
+- Code cosmetics.
+
+
+------------------------
 Genesis v4.2.0 (26-Mar-15)
 ------------------------
 
