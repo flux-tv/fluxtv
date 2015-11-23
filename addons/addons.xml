@@ -46,29 +46,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.pulsar" name="pulsar" version="0.4.0" provider-name="steeve">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="navigation.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.python.module" library="resources/site-packages" />
-  <extension point="xbmc.subtitle.module" library="navigation.py" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <language>en</language>
-    <website><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></website>
-    <forum><![CDATA[http://forum.xbmc.org/showthread.php?tid=200957]]></forum>
-    <source><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></source>
-    <language>en</language>
-    <license><![CDATA[Non commercial. See https://github.com/steeve/plugin.video.pulsar/blob/master/LICENSE]]></license>
-    <summary><![CDATA[Pulsar: Universal streaming]]></summary>
-    <description><![CDATA[Follow @pulsarhq on Twitter]]></description>
-  </extension>
-</addon>
-
 <!--suppress ALL -->
 <addon id="plugin.video.salts" version="1.0.30" name="Stream All The Sources" provider-name="tknorris">
     <requires>
@@ -166,81 +143,6 @@ XBMC HUB: j.mp/xbmctorrent]]></description>
         <description>Spotimc lets you search for music, browse your playlists and play your favourite tunes right from XBMC.[CR][CR]This product uses SPOTIFY(R) CORE but is not endorsed, certified or otherwise approved in any way by Spotify. Spotify is the registered trade mark of the Spotify Group.[CR][CR]Special thanks to Seeleck for the logo and skin improvements.[CR][CR]Special thanks also for the CherryPy project, the DejaVu fonts project and the GNOME project (high contrast icons theme).</description>
         <disclaimer>It requires a Spotify premium account.</disclaimer>
     </extension>
-</addon>
-
-<addon id="script.pulsar.bitdgg" name="Pulsar bitdgg Provider" version="0.5.2" provider-name="gomezvd">
-	<requires>
-		<import addon="xbmc.python" version="2.12.0"/>
-		<import addon="plugin.video.pulsar" version="0.3"/>
-	</requires>
-	<extension point="xbmc.python.script" library="main.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Pulsar bitdgg Provider</summary>
-		<language></language>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.pulsar.eztv-platbr" name="platbr's Pulsar EZTV Provider" version="0.1.0" provider-name="platbr">
-	<requires>
-		<import addon="xbmc.python" version="2.12.0"/>
-		<import addon="plugin.video.pulsar" version="0.2"/>
-	</requires>
-	<extension point="xbmc.python.script" library="main.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">platbr's Pulsar EZTV Provider</summary>
-		<language></language>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.pulsar.KickAssTorrents" name="Pulsar KickAssTorrents Provider" version="0.2" provider-name="cpkiller">
-	<requires>
-		<import addon="xbmc.python" version="2.12.0"/>
-		<import addon="plugin.video.pulsar" version="0.2"/>
-	</requires>
-	<extension point="xbmc.python.script" library="main.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Pulsar KickAssTorrents Provider</summary>
-		<language></language>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.pulsar.PirateBay" name="Pulsar Pirate Bay Provider" version="1.1.1" provider-name="GabbeV">
-    <requires>
-        <import addon="xbmc.python" version="2.12.0"/>
-        <import addon="plugin.video.pulsar" version="0.2"/>
-    </requires>
-    <extension point="xbmc.python.script" library="main.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Pulsar Pirate Bay Provider</summary>
-        <language></language>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="script.pulsar.yify-platbr" name="platbr's Pulsar Yify Provider" version="0.0.4" provider-name="platbr">
-	<requires>
-		<import addon="xbmc.python" version="2.12.0"/>
-        <import addon="plugin.video.pulsar" version="0.2"/>
-	</requires>
-	<extension point="xbmc.python.script" library="main.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">platbr's Pulsar Yify Provider</summary>
-		<language></language>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="skin.fluxtv" version="1.0.3" name="fluxtv" provider-name="Jezz_X, Team Kodi">
