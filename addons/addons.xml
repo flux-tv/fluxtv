@@ -243,7 +243,7 @@ XBMC HUB: j.mp/xbmctorrent]]></description>
 	</extension>
 </addon>
 
-<addon id="skin.fluxtv" version="1.0.2" name="fluxtv" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.fluxtv" version="1.0.3" name="fluxtv" provider-name="Jezz_X, Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.9.0" />
   </requires>
